@@ -1,0 +1,105 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tamanho_da_imagem {
+    width: 60%;
+    height: 100vh;
+    margin: 0;
+    background-image: url("../Images/loginimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.felicidade {
+    height: 100vh;
+    flex-direction: row;
+    display: flex;
+
+}
+
+.tamanho_do_cadastro {
+    width: 40%;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.class_de_letras{
+    margin-left: 5vw;
+    margin-top: 13vh;
+    color: #2a2c2d;
+
+}
+
+.class_de_letras_p{
+    margin-left: 5vw;
+    margin-top: 13vh;
+    color: #868686;
+
+}
+
+.alinhamento {
+    margin-left: 5vw;
+    padding-right: 10vw
+}
+
+.testandobarra{
+    width:110%;
+}
+
+.letras_p_debaixo {
+    margin-left: 5vw;
+    color: #868686;
+}
+
+.button {
+    margin-left: 5vw;
+    margin-top: 5vh;
+    width: 71.8%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 2vh;
+
+}
+
+.button:hover, .button2:hover{
+    background-color: black;
+    color: #4CAF50;
+}
+
+.linha {
+    height: 0.05vh;
+    width:71.8%;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    background-color: #acb3bf;
+}
+
+.nao_possui_conta{
+    margin-left: 5vw;
+    margin-top: 7vh;
+    color: #767a82;
+}
+
+.button2 {
+    margin-left: 5vw;
+    margin-top: 5vh;
+    width: 71.8%;
+    background-color: white;
+    color: #4CAF50;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #4CAF50;
+    border-style:solid;
+    padding: 2vh;
+
+}
