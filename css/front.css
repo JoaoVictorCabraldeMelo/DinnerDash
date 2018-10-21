@@ -2,9 +2,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+#body_consertando{
+    height: 100vh;
+}
+
 .tamanho_da_imagem {
     width: 60%;
-    height: 100vh;
+    /*! height: 100vh; */
     margin: 0;
     background-image: url("../Images/loginimage.jpg");
     background-position: center;
@@ -15,7 +19,7 @@
 }
 
 .felicidade {
-    height: 100vh;
+    height: 100%;
     flex-direction: row;
     display: flex;
 
@@ -86,7 +90,7 @@
 
 .nao_possui_conta{
     margin-left: 5vw;
-    margin-top: 7vh;
+    margin-top: 1em;
     color: #767a82;
 }
 
